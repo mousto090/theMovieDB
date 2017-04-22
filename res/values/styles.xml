@@ -1,0 +1,55 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- <item name="colorPrimary">#0000FF</item> -->
+        <!-- <item name="colorPrimaryDark">#000011</item> -->
+    </style>
+
+    <!-- <style name="ActorInfosTheme" parent="@style/Theme.AppCompat"> -->
+    <!-- <item name="android:windowNoTitle">true</item> -->
+    <!-- <item name="android:windowActionBar">false</item> -->
+    <!-- </style> -->
+
+
+    <!-- <style name="ActorInfosActionBarTheme" parent="AppTheme"> -->
+    <!-- <item name="android:background">#70000000</item> -->
+    <!-- </style> -->
+
+    <style name="ThemeActionBarTransparent" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <!-- ACTION BAR STYLES -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/actionbar_bg_transparnent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_launcher</item>
+<!--         <item name="android:actionBarWidgetTheme">@style/MyCustomShareIcon</item> -->
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/actionbar_bg_transparnent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back_white</item>
+<!--          <item name="actionBarWidgetTheme">@style/MyCustomShareIcon</item> -->
+    </style>
+
+    <!-- Action bar title style -->
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- To change Action bar share icon -->
+<!--     <style name="MyCustomShareIcon" parent="@style/Theme.AppCompat"> -->
+<!--         <item name="actionModeShareDrawable">@drawable/ic_launcher</item> -->
+<!--     </style> -->
+
+    <style name="PhotoGrid">
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/gridview_selector</item>
+    </style>
+
+</resources>

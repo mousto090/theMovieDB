@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_popular</item>
+        <item>@drawable/ic_top_rated</item>
+        <item>@drawable/ic_upcoming</item>
+        <item>@drawable/ic_now_playing</item>
+        <item>@drawable/ic_star_black</item>
+        <item>@drawable/ic_watchlist</item>
+    </array>
+
+    <string-array name="nav_drawer_titles">
+        <item>Popular</item>
+        <item>Top rated</item>
+        <item>Upcoming</item>
+        <item>Now playing</item>
+        <item >Favorites</item>
+        <item >Watchlist</item>
+    </string-array>
+
+</resources>

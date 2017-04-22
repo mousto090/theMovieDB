@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">TheMovieDB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_search">Search</string>
+    <string name="searchable_movie">Movies Search</string>
+    <!-- menu action popular movies -->
+    <string name="action_popular">Popular</string>
+    <!-- menu action top rated movies -->
+    <string name="action_top_rated">Top Rated</string>
+
+     <string name="nothing_found">Nothing found</string>
+     <string name="original_title">Original title</string>
+     <string name="genres">Genres</string>
+     <string name="release_date">Release date</string>
+     <string name="runtime">Runtime</string>
+     <string name="rating">Rating</string>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item icon</string>
+    <string name="desc_image">Description Image</string>
+
+    <!-- detail activity title -->
+    <string name="title_activity_details">Movie Detail</string>
+    <string name="bt_mark_as_favorite">Mark as\nfavorite</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="similar_movies">Similar Movies</string>
+    <string name="cast_movies">Cast</string>
+    <string name="trailer">Trailers</string>
+    <string name="comment">Comments</string>
+    <string name="more">more</string>
+    <string name="favorite">Favorite</string>
+    <string name="watchlist">Watchlist</string>
+    <!-- Actor infos -->
+    <string name="actor_name">Name</string>
+    <string name="actor_birthday">Birthday</string>
+    <string name="actor_birth_place">Birthplace</string>
+    <string name="actor_biography">Biography</string>
+   
+    <string name="progressbar_loading">Loading</string>
+    <!-- Format for displaying the movie trailer -->
+    <string name="format_movie_trailer">Trailer <xliff:g id="number_trailer">%1$d</xliff:g></string>
+    <!-- Date format for displaying the movie length (i.e. 120min) [CHAR LIMIT=10] -->
+
+    <string name="format_movie_length"><xliff:g id="length">%1$d</xliff:g>min </string>
+
+    <!-- Date format for displaying the movie vote (i.e. 8.7/10) [CHAR LIMIT=10] -->
+    <string name="format_movie_vote"><xliff:g id="nb_vote">%1$.1f</xliff:g>/10 </string>
+    <!-- Text to display when creating the intent chooser to play the trailer [CHAR LIMIT=20] -->
+    <string name="intent_chooser_text">Continue with</string>
+    
+    <!-- Date format for displaying the movie vote count (i.e. 8.7/10) [CHAR LIMIT=10] -->
+    <string name="format_movie_vote_count"><xliff:g id="nb_vote">%1$d</xliff:g> votes </string>
+
+</resources>
