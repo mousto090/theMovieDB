@@ -8,7 +8,7 @@ public class Constantes {
 	public static final String BASE_URL_API = "http://api.themoviedb.org/3/";
 	public static final String BASE_URL_SEARCH = "http://api.themoviedb.org/3/search/";
 	
-	public static final String KEY = "c2622588503305334201689b13ae2bc9";
+	public static final String KEY = "get your api key on http://api.themoviedb.org";
 	
 	public static final String MOVIE_PATH = "movie";
 	public static final String DISCOVER_PATH = "discover";
